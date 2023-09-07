@@ -1,0 +1,37 @@
+.btn{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    &:hover{
+        filter: brightness(120%);
+    }
+    &:active{
+        filter: brightness(100%);
+    }
+}
+input{
+    border: none;
+}
+.bottom{
+    flex-grow: 1;
+}
+.screen{
+    margin-top: 40px;
+    input{
+        height: 130px;
+        font-size: 60px;
+    }
+}
+span{
+    font-size: 15px;
+}
+.bttm{
+    width: 100px;
+    height: 4px;
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

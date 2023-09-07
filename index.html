@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="calculator bg-black relative shadow-lg h-[560px] w-[275px] rounded-[40px]">
+        <div class="top">            
+            <span class="time absolute left-[15%] text-white absolute top-2">9:42</span>
+        </div>
+        <div class="screen p-4">
+            <input class="w-full p-2 text-right bg-black text-white border rounded focus:outline-none">
+        </div>
+        <div class="buttons m-[25px] my-[5px]">            
+            <div class="flex space-x-2 my-[15px]">
+                <button class="btn ac bg-[#D4D4D2]">AC</button>
+                <button class="btn plus-minus bg-[#D4D4D2]">+/-</button>
+                <button class="btn percent bg-[#D4D4D2]">%</button>
+                <button class="btn division bg-[#FF9500]">/</button>
+            </div>
+            <div class="flex space-x-2 my-[15px]">
+                <button class="btn seven bg-[#505050]">7</button>
+                <button class="btn eight bg-[#505050]">8</button>
+                <button class="btn nine bg-[#505050]">9</button>
+                <button class="btn multiply bg-[#FF9500]">X</button>
+            </div>
+            <div class="flex space-x-2 my-[15px]">
+                <button class="btn four bg-[#505050]">4</button>
+                <button class="btn five bg-[#505050]">5</button>
+                <button class="btn six bg-[#505050]">6</button>
+                <button class="btn minus bg-[#FF9500]">-</button>
+            </div>
+            <div class="flex space-x-2 my-[15px]">
+                <button class="btn one bg-[#505050]">1</button>
+                <button class="btn two bg-[#505050]">2</button>
+                <button class="btn three bg-[#505050]">3</button>
+                <button class="btn plus bg-[#FF9500]">+</button>
+            </div>
+            <div class=" flex bottom space-x-2 my-[5px]">
+                <button class="btn zero number-0 rounded-[55px] w-[105px] bg-[#505050]">0</button>
+                <button class="btn dot bg-[#505050]">.</button>
+                <button class="btn equal bg-[#FF9500]">=</button>
+            </div>
+        </div>
+        <div class="bttm"></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
